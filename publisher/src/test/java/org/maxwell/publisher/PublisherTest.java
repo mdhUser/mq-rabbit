@@ -16,6 +16,8 @@ import java.util.concurrent.TimeoutException;
  */
 public class PublisherTest {
 
+
+
     @Test
     public void testSendMessage() throws IOException, TimeoutException {
 
@@ -45,6 +47,9 @@ public class PublisherTest {
         //关闭通道和连接
         channel.close();
         connection.close();
+
+
+
 
     }
 
